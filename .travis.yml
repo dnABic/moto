@@ -6,6 +6,9 @@ python:
 env:
     matrix:
       - BOTO_VERSION=2.36.0
+branches:
+    only:
+      - release
 matrix:
     include:
       - python: "3.3"
