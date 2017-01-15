@@ -1,5 +1,8 @@
 node {
-  stage "Saying hello world"
-
-  echo 'hello world'
+  stage('Checkout') {
+    checkout scm
+  }
+  stage('Build') {
+    echo 'Hello World'
+  }
 }
