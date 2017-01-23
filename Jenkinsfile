@@ -1,3 +1,5 @@
+properties([pipelineTriggers([[$class: 'GitHubPushTrigger']])]) 
+
 node {
   stage('Checkout') {
     checkout scm
