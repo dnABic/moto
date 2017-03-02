@@ -12,6 +12,8 @@ install_requires = [
     "werkzeug",
     "pytz",
     "python-dateutil",
+    'flask',
+    'botocore',
 ]
 
 extras_require = {
